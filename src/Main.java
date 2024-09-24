@@ -10,12 +10,12 @@ public class Main {
 
 
         List<Integer> intList = Arrays.asList(10,28,87,20,10,20,76,80,80,80);
-//        intList.stream().filter(x->x>25)
-//                        .forEach(x-> System.out.print(" "+x));
-//        System.out.println(" ");
-//        List<Integer> intList3 = intList.stream().filter(x-> x>25).collect(Collectors.collectingAndThen(Collectors.toList(),
-//                                                              list->{Collections.reverse(list);
-//                                                                      return list;}));
+        intList.stream().filter(x->x>25)
+                        .forEach(x-> System.out.print(" "+x));
+        System.out.println(" ");
+        List<Integer> intList3 = intList.stream().filter(x-> x>25).collect(Collectors.collectingAndThen(Collectors.toList(),
+                                                              list->{Collections.reverse(list);
+                                                                      return list;}));
 //
 //        System.out.println(intList3);
 
