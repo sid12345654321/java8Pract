@@ -8,6 +8,7 @@ import java.util.stream.IntStream;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("ITS FETCH EXAMPLE");
 
         List<Integer> intList = Arrays.asList(10,28,87,20,10,20,76,80,80,80);
         intList.stream().filter(x->x>25)
