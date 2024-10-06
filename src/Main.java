@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("ITS FETCH EXAMPLE");
         System.out.println("ITS PULL EXAMPLE");
-        System.out.println("Merge conflict demo2");
+        System.out.println("Merge conflict demo4");
 
         List<Integer> intList = Arrays.asList(10,28,87,20,10,20,76,80,80,80);
         intList.stream().filter(x->x>25)
