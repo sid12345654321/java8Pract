@@ -21,6 +21,7 @@ public class Main {
         List<Integer> intList3 = intList.stream().filter(x-> x>25).collect(Collectors.collectingAndThen(Collectors.toList(),
                                                               list->{Collections.reverse(list);
                                                                       return list;}));
+        System.out.println("this is commit from different line of code ");
 //
 //        System.out.println(intList3);
 
